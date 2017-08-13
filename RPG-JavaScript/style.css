@@ -1,0 +1,91 @@
+.enemyZone {
+	border-color: gray;
+	border-style: groove;
+	width: 60%;
+	height: 55%;
+	box-sizing: border-box;
+	float: left;
+	border-width: 10px;
+	overflow: hidden;
+}
+
+.pCZone {
+	border-color: gray;
+	border-style: groove;
+	width: 20%;
+	height: 55%;
+	box-sizing: border-box;
+	float: right;
+	border-width: 10px;
+}
+
+.messageZone {
+	border-color: gray;
+	border-style: groove;
+	width: 40%;
+	height: 45%;
+	box-sizing: border-box;
+	float: left;
+	border-width: 10px
+}
+
+.choicesZone {
+	border-color: gray;
+	border-style: groove;
+	width: 40%;
+	height: 45%;
+	box-sizing: border-box;
+	float: right;
+	border-width: 10px;
+}
+
+.statusZone {
+	border-color: gray;
+	border-style: groove;
+	width: 20%;
+	height: 100%;
+	box-sizing: border-box;
+	float: right;
+	border-width: 10px;
+}
+
+.fight {
+	color: white;
+	background-color: black;
+	padding: 9%;
+	margin: 5%;
+	width: 40%;
+	height: 1%;
+}
+
+.imp {
+	width: 15%;
+	height: auto;
+}
+
+.statBox {
+	border-color: gray;
+	border-style: groove;
+	width: 100%;
+	height: 25%;
+	box-sizing: border-box;
+	border-width: 10px;
+	margin: 0;
+}
+
+.pCPics {
+	height: 25%;
+	width: auto;
+	float: right;
+	margin: 0 0 0 100%;
+}
+
+h1, h2, h3, h4 {
+	font-weight: bold;
+	margin: 0 0 0 5%;
+	color: white;
+}
+
+* {
+	background-color: black;
+}
