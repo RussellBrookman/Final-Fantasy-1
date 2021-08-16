@@ -6,44 +6,30 @@
 </head>
 <body>
 	<div class="statusZone">
-		<h1 id="ftr" class="statBox">ftr
-		HP:
-		</h1>
-		<h1 id="thf" class="statBox">thf
-		HP:
-		</h1>
-		<h1 id="wMage" class="statBox">wMage
-		HP:
-		</h1>
-		<h1 id="bMage" class="statBox">bMage
-		HP:
-		</h1>
+	    <h1 id="ftr" class="statBox"></h1>
+	    <h1 id="thf" class="statBox"></h1>
+	    <h1 id="wMage" class="statBox"></h1>
+	    <h1 id="bMage" class="statBox"></h1>
 	</div>
 	<div class="enemyZone">
-		<img src="images/imp.jpg" class="imp">
-		</img>
+		<input type="image" class="imp" />
 	</div>
 	<div class="pCZone">
-		<img src="images/fighter.jpg" class="pCPics">
-		</img>
-		<img src="images/theif.jpg" class="pCPics">
-		</img>
-		<img src="images/white-mage.jpg" class="pCPics">
-		</img>
-		<img src="images/black-mage.jpg" class="pCPics">
-		</img>
+		<input type="image" id="fighter" class="pCPics"></img>
+		<input type="image" id="theif" class="pCPics"></img>
+		<input type="image" id="whiteMage" class="pCPics"></img>
+		<input type="image" id="blackMage" class="pCPics"></img>
 	</div>
 
 	<div class="messageZone">
-		<h1 id="anImp">Imp
-		HP: </h1>
-		<h2 id="messageArea">
-		</h2>
-	</div>
+		<h1 id="anImp"></h1>
+		<h2 id="messageArea">Action Info. </h2>
 	</div>
 	<div class="choicesZone">
-		<button class="fight">Fight
-		</button>
+	    <button id="option1" class="allOpt"></button>
+	    <button id="option2" class="allOpt"></button>
+	    <button id="option3" class="allOpt"></button>
+	    <button id="option4" class="allOpt"></button>  
 	</div>
 	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 	<script src='script.js'></script>
@@ -57,4 +43,5 @@
 });
 	</script>
 </body>
+<!-- created by Russell Brookman -->
 </html>

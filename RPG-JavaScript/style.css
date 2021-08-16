@@ -8,7 +8,6 @@
 	border-width: 10px;
 	overflow: hidden;
 }
-
 .pCZone {
 	border-color: gray;
 	border-style: groove;
@@ -18,7 +17,6 @@
 	float: right;
 	border-width: 10px;
 }
-
 .messageZone {
 	border-color: gray;
 	border-style: groove;
@@ -28,7 +26,6 @@
 	float: left;
 	border-width: 10px
 }
-
 .choicesZone {
 	border-color: gray;
 	border-style: groove;
@@ -38,7 +35,6 @@
 	float: right;
 	border-width: 10px;
 }
-
 .statusZone {
 	border-color: gray;
 	border-style: groove;
@@ -48,44 +44,43 @@
 	float: right;
 	border-width: 10px;
 }
-
-.fight {
+#option1, #option2, #option3, #option4 {
 	color: white;
 	background-color: black;
-	padding: 9%;
-	margin: 5%;
-	width: 40%;
-	height: 1%;
+	padding: 5.5% 7% 8.5% 7%;
+	margin: 5.5%;
+  width: 39%;
+  height: 1%;
+  float: left;
+  text-align: center;
 }
-
 .imp {
-	width: 15%;
+	width: 16%;
 	height: auto;
 }
-
 .statBox {
 	border-color: gray;
 	border-style: groove;
-	width: 100%;
+	width: 99%;
 	height: 25%;
 	box-sizing: border-box;
 	border-width: 10px;
 	margin: 0;
+	padding: 0 0 0 1%;
 }
-
 .pCPics {
 	height: 25%;
 	width: auto;
 	float: right;
-	margin: 0 0 0 100%;
+	margin: 0 0 0 75%;
+	/* makes movement from the right, left, top, or bottom possible */
 }
-
 h1, h2, h3, h4 {
 	font-weight: bold;
 	margin: 0 0 0 5%;
 	color: white;
 }
-
 * {
 	background-color: black;
+	position: relative;
 }
